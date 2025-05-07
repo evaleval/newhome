@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -82,8 +82,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
+    background: #fbf9f8;
 }
 
 header .container {
@@ -98,7 +98,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -149,7 +149,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -181,8 +181,18 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
+    background: #fff;
+}
+
+#about .current-projects {
+    padding: 40px 0;
+}
+#about .current-projects ul {
+    font-size: 20px;
+}
+#about .current-projects h4 {
+    font-size: 2em;
 }
 
 @media(max-width:767px) {
@@ -230,7 +240,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.color.secondary }};
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {

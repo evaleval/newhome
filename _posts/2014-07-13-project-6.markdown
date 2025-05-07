@@ -1,11 +1,10 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: submarine.png
+title: EvalEval Workshop 2025 & Outreach
+team: Icchya Pant, Jennifer Mickel, Kevin Klyman, Kevin Wei, Prajna Soni
+img: workshop.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Organization
+description: Building upon the momentum of NeurIPS 2024, our primary focus is to strategically plan our engagement with a major annual academic venue, likely NeurIPS, to showcase high-quality research and technical contributions. In parallel, we aim to cultivate a QueerInAI-esque presence at other relevant venues by organizing social events and short talks to broaden our reach and foster community engagement. Complementing these outreach efforts, we will also pursue active research engagements and develop centralised resources to support our community.
 ---
