@@ -179,10 +179,26 @@ section h2 {
     margin: 0;
     font-size: 3em;
 }
+  
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
+    background: #fff;
+}
+
+#about .current-projects {
+    padding: 40px 0;
+}
+#about .current-projects ul {
+    font-size: 20px;
+}
+#about .current-projects h4 {
+    font-size: 2em;
+}
+
+section.info {
+    color: #{{ site.color.secondary }};
+    background: #fff;
 }
 
 @media(max-width:767px) {
@@ -466,7 +482,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    /* background-color: #{{ site.color.secondary }}; */
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -475,6 +491,15 @@ footer .footer-below {
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
+
+/* size & align the logo in the navbar-brand */
+.navbar-brand .navbar-logo {
+    display: inline-block;
+    height: 40px;       /* tweak to taste */
+    margin-right: 8px;  /* space between logo and text */
+    vertical-align: middle;
+  }
+  
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
