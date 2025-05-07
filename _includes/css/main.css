@@ -13,11 +13,16 @@
     font-family: 'Source Code Pro';
     src:  url('fonts/sourcecodepro-regular-webfont.woff') format('woff');
   }
-  $base-font-family: 'Noto Sans', Helvetica, Arial, sans-serif !default;
+  $base-font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
   $code-font-family: 'Source Code Pro', monospace;
 
 body {
+    font-family: 'Noto Sans', Helvetica, Arial, sans-serif !important;
     overflow-x: hidden;
+}
+
+body#page-top {
+    font-family: 'Noto Sans', Helvetica, Arial, sans-serif !important;
 }
 
 p {
@@ -44,7 +49,7 @@ h4,
 h5,
 h6 {
     /* text-transform: uppercase; */
-    font-family: 'Noto Sans', Helvetica, Arial, sans-serif !default; /*Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /*Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 700;
 }
 
@@ -111,7 +116,7 @@ header img {
 header .intro-text .name {
     display: block;
     /* text-transform: uppercase; */
-    font-family: 'Noto Sans', Helvetica, Arial, sans-serif !default; /*Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Noto Sans', Helvetica, Arial, sans-serif; /*Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-size: 2em;
     font-weight: 700;
 }
