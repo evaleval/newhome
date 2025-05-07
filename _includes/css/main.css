@@ -191,7 +191,6 @@ section h2 {
     margin: 0;
     font-size: 3em;
 }
-  
 
 section.success {
     color: #{{ site.color.secondary }};
@@ -498,15 +497,6 @@ footer .footer-below {
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
-
-/* size & align the logo in the navbar-brand */
-.navbar-brand .navbar-logo {
-    display: inline-block;
-    height: 40px;       /* tweak to taste */
-    margin-right: 8px;  /* space between logo and text */
-    vertical-align: middle;
-  }
-  
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
