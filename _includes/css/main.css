@@ -196,11 +196,6 @@ section.success {
     font-size: 2em;
 }
 
-section.info {
-    color: #{{ site.color.secondary }};
-    background: #fff;
-}
-
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -246,7 +241,7 @@ section.info {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.color.secondary }};
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -482,7 +477,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    /* background-color: #{{ site.color.secondary }}; */
+    background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

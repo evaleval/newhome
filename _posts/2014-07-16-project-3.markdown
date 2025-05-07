@@ -1,11 +1,10 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: circus.png
+title: Evaluation Cards
+team: Anka Reuel, Cedric Whitney, Avijit Ghosh
+img: cards.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Research
+description: This project addresses the need for a structured and systematic approach to documenting AI model evaluations through the creation of "evaluation cards," focusing specifically on technical base systems in their pre-deployment state. By concentrating on context-independent upstream evaluations, this framework, informed by stakeholder interviews and building upon prior work, enables early-stage model assessments that capture core capabilities, risks, and trade-offs relevant to future adopters regardless of specific downstream applications. The resulting evaluation cards will provide a user-friendly format for model developers to document key social aspects and evaluation results, facilitating transparent communication and informed use of AI models by attaching these cards to release documentation such as model and system cards.
 ---

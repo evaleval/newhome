@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: EvalEval 2025
+  copyright: EvalEval
   # location: Location
   # social: Around the Web
   # credits: Credits
@@ -52,8 +52,9 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Hugging Face
+  - line: University of Ediburgh
+  - line: EleutherAI
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: cake.png
+title: Evaluation Science
+team: Subho Majumdar, Patricia Paskov
+img: science.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Research
+description: |
+    Recognizing the current lack of robustness in GPAI risk evaluations and the resulting limitations for informed decision-making and societal preparedness, this project aims to establish a scientific foundation for more rigorous and reliable evaluations. By bringing together researchers and practitioners, we will take stock of existing evaluation science research, map open questions and evidence gaps, conduct targeted research on select areas of expertise, and ultimately bridge the divide between rigorous best practices and pragmatic implementation to provide actionable insights for the AI evaluation ecosystem.
+
 ---

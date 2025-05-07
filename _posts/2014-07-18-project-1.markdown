@@ -1,11 +1,13 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: cabin.png
+title: Benchmark Saturation
+team: Anka Reuel, Prajna Soni, Mubashara Akhtar
+img: saturation.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Research
+description:  |
+  This project aims to investigate how to systematically characterize the complexity and behavior of AI benchmarks over time, with the overarching goal of informing more robust benchmark design. The first core challenge is conceptual -- how can we measure benchmark complexity in a meaningful, reproducible way? We will define and extract a rich set of benchmark properties, ranging from domain and task type to semantic diversity and prompt variability, to facilitate this.
+
+  The second phase of the project focuses on the dynamics of benchmark saturation – why some benchmarks (e.g., MATH, ARC-AGI) remain challenging over time while others are rapidly “solved.” Analyses will aim to understand benchmark characteristics that may contribute to saturation speed, as well as model properties that contribute to saturation in specific benchmarks. Ultimately, our findings will inform the EvalEval coalition’s efforts to develop more enduring and trustworthy benchmarks for the AI community.
 ---
