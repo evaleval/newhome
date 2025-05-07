@@ -1,35 +1,25 @@
 <!-- Portfolio Grid Section -->
-<!-- <section id="portfolio">
-  <div class="container">
+<section id="portfolio">
+  <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Current Projects</h2>
+        <h2>Portfolio</h2>
         <hr class="star-primary">
       </div>
     </div>
-    <div class="row text-center">
-      <div class="col-md-4">
-        <h3>Research</h3>
-        <ul class="list-unstyled">
-          <li>Evaluation Cards</li>
-          <li>Benchmark Saturation</li>
-          <li>Evaluation Science</li>
-        </ul>
+    <div class="portfolio-flex-row">
+      {% for post in site.posts %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        </a>
       </div>
-      <div class="col-md-4">
-        <h3>Infrastructure</h3>
-        <ul class="list-unstyled">
-          <li>Single Data Format and Caching Evaluations</li>
-          <li>Evaluation Harness and Tutorials</li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <h3>Organization</h3>
-        <ul class="list-unstyled">
-          <li>Community Engagement</li>
-          <li>Research Workshops</li>
-        </ul>
-      </div>
+      {% endfor %}
     </div>
   </div>
-</section> -->
+</section>
