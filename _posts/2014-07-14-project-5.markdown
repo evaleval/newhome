@@ -6,5 +6,5 @@ team: Baber Abbasi, Stella Biderman, Garnett Achieng
 img: harness.png
 alt: image-alt
 category: Infrastructure
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: This project extends the Eleuther Harness to create a toolkit that has different evaluations that can be run from a central codebase. The project also involves creating hands on tutorials on using the harness so that people can learn how to do their own model evaluations.
 ---

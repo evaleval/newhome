@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="{{ site.description }}">
   <meta name="keywords" content="{{ site.keywords }}" />
+
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ '/img/favicon.png' | relative_url }}"
+  >
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="{{ '/img/favicon.png' | relative_url }}"
+  >
+
   {% if site.meta_author %}
   <meta name="author" content="{{ site.meta_author }}">{% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
@@ -23,8 +37,9 @@
 
   <!-- Custom Fonts -->
   <link rel="stylesheet" href="{{ " css/font-awesome/css/all.min.css" }}">
-  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!--<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
