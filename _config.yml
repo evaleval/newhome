@@ -53,7 +53,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: Hugging Face
-  - line: University of Ediburgh
+  - line: University of Edinburgh
   - line: EleutherAI
 
 # Credits content
