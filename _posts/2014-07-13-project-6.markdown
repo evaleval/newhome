@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 title: EvalEval Workshop 2025 & Outreach
-team: Icchya Pant, Jennifer Mickel, Kevin Klyman, Kevin Wei, Prajna Soni
+team: Icchya Pant, Jennifer Mickel, Kevin Klyman, Prajna Soni
 img: workshop.png
 alt: image-alt
 category: Organization
